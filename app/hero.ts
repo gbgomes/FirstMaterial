@@ -1,9 +1,9 @@
-export class Heroi 
+export class Hero
 {
 	constructor
 	(
 		public id: number,
-		public nome: string
+		public name: string
 	) 
 	{ }
 }
