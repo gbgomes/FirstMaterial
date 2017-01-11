@@ -1,11 +1,11 @@
 import {Component, Input} from '@angular/core';
 import { Hero } from './hero';
 
-@component({
-	selector: 'my-hero-detail';
+@Component({
+	selector: 'my-hero-detail',
 	template:
 	`
-    <div *ngIf="selectedHero">
+    <div *ngIf="hero">
       <h2>{{hero.name}} details!</h2>
       <div><label>id: </label>{{hero.id}}</div>
       <div>
