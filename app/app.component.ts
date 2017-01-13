@@ -13,7 +13,7 @@ import { Hero } from './hero';
     	<a routerLink="/heroes" routerLinkActive="active">Heroes</a>
 	  </nav>
       <router-outlet></router-outlet>
-  `
+  `,
   styleUrls: [ 'app.component.css' ]
 })
 
