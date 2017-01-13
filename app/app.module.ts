@@ -1,6 +1,9 @@
 
 import './rxjs-extensions';
 
+@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
+import 'hammerjs';
+
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }   from '@angular/forms';
@@ -15,6 +18,9 @@ import { HeroSearchComponent } from "./hero-search.component";
 
 import { AppRoutingModule }    from './app-routing.module';
 
+//Material
+import { MaterialModule } from '@angular/material';
+
 
 // Imports for loading & configuring the in-memory web api
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
@@ -26,7 +32,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
   				  FormsModule,
 			      AppRoutingModule,
 			      HttpModule,
-    			  InMemoryWebApiModule.forRoot(InMemoryDataService)
+    			  InMemoryWebApiModule.forRoot(InMemoryDataService),
+    			  MaterialModule.forRoot()
 			    ],
   declarations: [ 
                   AppComponent,
