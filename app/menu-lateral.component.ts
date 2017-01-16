@@ -8,6 +8,11 @@ import { Component } from '@angular/core';
 })
 export class MenuLateralComponent
 {
+
+  isScreenSmall(): boolean {
+    return window.matchMedia(`(max-width: ${SMALL_WIDTH_BREAKPOINT}px)`).matches;
+  }
+
 /*
   items: MenuItens[] = [];
 
