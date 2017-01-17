@@ -1,0 +1,29 @@
+<md-sidenav-container [class.m2app-dark]="isDarkTheme">
+
+<!--    <menu-lateral #sidenav></menu-lateral> -->
+
+	<md-sidenav #sidenav opened="true" mode="push" class="app-sidenav">
+		<h1>{{title}}</h1>
+		<nav>
+			<p><a routerLink="/dashboard" routerLinkActive="active">Dashboard</a></p>
+			<p><a routerLink="/heroes" routerLinkActive="active">Heroes</a></p>
+		</nav>
+<!--
+
+        <span >{{menuitems[0].name}}</span>
+-->
+		<ul>
+		  <li *ngFor="let menuitem of menuitems"">
+		    <span >{{menuitem.name}}</span>
+		  </li>
+		</ul>
+	</md-sidenav>
+
+	<button (click)="sidenav.toggle()">
+		<i class="material-icons app-toolbar-menu">menu</i>
+	</button>
+
+
+	<router-outlet></router-outlet>
+
+</md-sidenav-container>

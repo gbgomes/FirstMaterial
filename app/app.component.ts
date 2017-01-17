@@ -1,35 +1,41 @@
 
 import { Hero } from './hero';
 
+import { MenuItem } from './menuitem';
+import { MenuItemService } from './menuitem.service';
 
-import {Component} from '@angular/core';
-import {MdSidenav} from '@angular/material';
-import {Router} from '@angular/router';
+import {Component, OnInit} from '@angular/core';
+import {MdSidenav}         from '@angular/material';
+import {Router}            from '@angular/router';
 
-import { MenuLateralComponent } from "./menu-lateral.component";
+//import { MenuLateralComponent } from "./menu-lateral.component";
 
 @Component
 ({
   moduleId: module.id,
   selector: 'my-app',
-  template: `
-  <md-sidenav-layout [class.m2app-dark]="isDarkTheme">
-
-    <menu-lateral></menu-lateral>
-
-	  <h1>{{title}}</h1>
-	  <nav>
-	    <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
-    	<a routerLink="/heroes" routerLinkActive="active">Heroes</a>
-	  </nav>
-      <router-outlet></router-outlet>
-
-     </md-sidenav-layout>
-  `,
+  templateUrl: 'app.component.html',
   styleUrls: [ 'app.component.css' ]
 })
 
-export class AppComponent
+export class AppComponent implements OnInit
 { 
+  menuitems: MenuItem[];
+
+  constructor(
+    private router: Router,
+    private menuitemsService: MenuItemService) { }
+
   title = 'Tour of Heroes';
+
+
+  getMenuItems(): void
+  {
+    this.menuitemsService.getMenuItems().then(menuitems => this.menuitems = menuitems);
+  }
+
+  ngOnInit(): void 
+  {
+    this.getMenuItems();
+  }
 }

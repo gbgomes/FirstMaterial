@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import {MdSidenav} from '@angular/material';
 
 @Component({
   moduleId: module.id,
@@ -9,8 +10,17 @@ import { Component } from '@angular/core';
 export class MenuLateralComponent
 {
 
+  @ViewChild('sidenav') el: MdSidenav;
+
   isScreenSmall(): boolean {
-    return window.matchMedia(`(max-width: ${SMALL_WIDTH_BREAKPOINT}px)`).matches;
+//    return window.matchMedia(`(max-width: ${SMALL_WIDTH_BREAKPOINT}px)`).matches;
+	return false;
+  }
+
+
+  toggle()
+  {
+  	this.el.toggle();
   }
 
 /*
