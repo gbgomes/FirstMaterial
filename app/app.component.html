@@ -1,23 +1,26 @@
-<md-sidenav-container [class.m2app-dark]="isDarkTheme">
+
+  <md-toolbar color="primary">
+    <button class="app-icon-button" (click)="sidenav.toggle()">
+      <i class="material-icons app-toolbar-menu">menu</i>
+    </button>
+
+    Angular Material2 Example App
+
+    <span class="app-toolbar-filler"></span>
+    <button md-button (click)="isDarkTheme = !isDarkTheme">TOGGLE DARK THEME</button>
+  </md-toolbar>
+
+<md-sidenav-container [class.m2app-dark]="isDarkTheme" fullscreen>
 
 <!--    <menu-lateral #sidenav></menu-lateral> -->
 
-	<md-sidenav #sidenav opened="true" mode="push" class="app-sidenav">
+	<md-sidenav #sidenav opened="true" mode="side" class="app-sidenav">
 		<h1>{{title}}</h1>
 		<nav>
-			<p><a routerLink="/dashboard" routerLinkActive="active">Dashboard</a></p>
-			<p><a routerLink="/heroes" routerLinkActive="active">Heroes</a></p>
+			<p  *ngFor="let menuitem of menuitems"><a routerLink={{menuitem.url}} routerLinkActive="active">{{menuitem.name}}</a></p>
 		</nav>
-<!--
-
-        <span >{{menuitems[0].name}}</span>
--->
-		<ul>
-		  <li *ngFor="let menuitem of menuitems"">
-		    <span >{{menuitem.name}}</span>
-		  </li>
-		</ul>
 	</md-sidenav>
+
 
 	<button (click)="sidenav.toggle()">
 		<i class="material-icons app-toolbar-menu">menu</i>

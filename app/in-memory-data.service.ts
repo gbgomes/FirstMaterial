@@ -16,8 +16,8 @@ export class InMemoryDataService implements InMemoryDbService {
     ];
 
     let menuitems = [
-      {id: 1, name: 'kkk1', url: '/kkk1'},
-      {id: 2, name: 'kkk2', url: '/kkk2'}
+      {id: 1, name: 'Dashboard', url: '/dashboard'},
+      {id: 2, name: 'Heroes', url: '/heroes'}
     ];
     return {heroes, menuitems};
   }
