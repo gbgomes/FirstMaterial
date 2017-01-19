@@ -4,7 +4,8 @@ import { Hero } from './hero';
 import { MenuItem } from './menuitem';
 import { MenuItemService } from './menuitem.service';
 
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, NgZone, ViewChild} from '@angular/core';
+
 import {MdSidenav}         from '@angular/material';
 import {Router}            from '@angular/router';
 
@@ -21,13 +22,38 @@ import {Router}            from '@angular/router';
 export class AppComponent implements OnInit
 { 
   menuitems: MenuItem[];
+  smallscreen = false
 
   constructor(
     private router: Router,
-    private menuitemsService: MenuItemService) { }
+    private menuitemsService: MenuItemService,
+            ngZone:           NgZone)
+  {
+      window.onresize = (e) => {
+        ngZone.run(() => {
+              if( window.innerWidth < 1024 )
+              {
+                this.sidenav.close();
+                this.smallscreen = true;
+              } 
+              else
+              {
+                this.sidenav.open();
+                this.smallscreen = false;
+              }
+
+        });
+      };
+   }
 
   title = 'Tour of Heroes';
 
+  @ViewChild('sidenav') sidenav: MdSidenav;
+
+  isScreenSmall(): boolean {
+//    return window.matchMedia(`(max-width: ${SMALL_WIDTH_BREAKPOINT}px)`).matches;
+  return false;
+  }
 
   getMenuItems(): void
   {
@@ -38,4 +64,5 @@ export class AppComponent implements OnInit
   {
     this.getMenuItems();
   }
+
 }

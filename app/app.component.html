@@ -1,15 +1,4 @@
 
-  <md-toolbar color="primary">
-    <button class="app-icon-button" (click)="sidenav.toggle()">
-      <i class="material-icons app-toolbar-menu">menu</i>
-    </button>
-
-    Angular Material2 Example App
-
-    <span class="app-toolbar-filler"></span>
-    <button md-button (click)="isDarkTheme = !isDarkTheme">TOGGLE DARK THEME</button>
-  </md-toolbar>
-
 <md-sidenav-container [class.m2app-dark]="isDarkTheme" fullscreen>
 
 <!--    <menu-lateral #sidenav></menu-lateral> -->
@@ -21,12 +10,22 @@
 		</nav>
 	</md-sidenav>
 
+	<div id="toolbar">
+	  <md-toolbar color="primary">
+	    <!-- botão para abrir/fechar o menu lateral. Só exibido se tela pequena -->
+	    <div [hidden]='!smallscreen'>
+		    <button class="app-icon-button" (click)="sidenav.toggle()">
+		      <i class="material-icons app-toolbar-menu">menu</i>
+		    </button>
+	    </div>
 
-	<button (click)="sidenav.toggle()">
-		<i class="material-icons app-toolbar-menu">menu</i>
-	</button>
+	  </md-toolbar>
+	</div>
 
-
-	<router-outlet></router-outlet>
-
+	
+	<div id="wrapper">
+	  <div>
+		<router-outlet></router-outlet>
+      </div>
+	</div>
 </md-sidenav-container>
