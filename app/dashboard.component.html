@@ -6,4 +6,33 @@
     </div>
   </a>
 </div>
+
+<!--<md-grid-list #gridlist [cols]="{{nCols}}">-->
+<md-grid-list #gridlist cols=3>
+  <md-grid-tile *ngFor="let hero of heroes">
+    <md-card class="dashboard-cards">
+  <md-card-header>
+<!--        <div md-card-avatar class="example-header-image"></div> -->
+    <md-card-title>{{hero.name}}</md-card-title>
+<!--    <md-card-subtitle>Dog Breed</md-card-subtitle> -->
+  </md-card-header>
+  <md-card-content>
+    <p>
+      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+      bred for hunting.
+    </p>
+  </md-card-content>
+  <md-card-actions>
+    <button md-button>LIKE</button>
+    <button md-button>SHARE</button>
+    <button md-button>Detalhes</button>
+  </md-card-actions>
+</md-card>
+  </md-grid-tile>
+</md-grid-list>
+
+
+
+
 <hero-search></hero-search>

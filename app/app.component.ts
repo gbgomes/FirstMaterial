@@ -49,6 +49,8 @@ export class AppComponent implements OnInit
   title = 'Tour of Heroes';
 
   @ViewChild('sidenav') sidenav: MdSidenav;
+//  @ViewChild('sidenav') sidenav: MdSidenav;
+
 
   isScreenSmall(): boolean {
 //    return window.matchMedia(`(max-width: ${SMALL_WIDTH_BREAKPOINT}px)`).matches;

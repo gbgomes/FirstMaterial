@@ -32,17 +32,21 @@ md-sidenav-layout.m2app-dark {
 }
 
 #toolbar {
-  height: 60px;
+  height: 65px;
   overflow: visible;
 }
 
 #wrapper { 
   position: absolute;
-  top: 60px;
-  left: 10px;
+  top: 65px;
+  left: 0px;
   bottom: 0;
   right: 0;
-  background: snow;
+      background-color: #039be5;
   overflow-y: scroll
 }
-#wrapper div { min-height: 100% }
+#content {
+  padding: 10px;
+  min-height: 100%;
+    background-color: #CFD8DC;
+}

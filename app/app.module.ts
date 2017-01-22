@@ -4,12 +4,13 @@ import './rxjs-extensions';
 //import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
 //import 'hammerjs';
 
-import { NgModule }         from '@angular/core';
-import { BrowserModule }    from '@angular/platform-browser';
-import { FormsModule }      from '@angular/forms';
-import { HttpModule }       from '@angular/http';
-import { AppRoutingModule } from './app-routing.module';
+import { NgModule }          from '@angular/core';
+import { BrowserModule }     from '@angular/platform-browser';
+import { FormsModule }       from '@angular/forms';
+import { HttpModule }        from '@angular/http';
+import { FlexLayoutModule }  from '@angular/flex-layout';
 
+import { AppRoutingModule }     from './app-routing.module';
 import { AppComponent }         from './app.component';
 import { DashboardComponent }   from './dashboard.component';
 import { HeroDetailComponent }  from "./hero-detail.component";
@@ -37,6 +38,7 @@ import { InMemoryDataService }  from './in-memory-data.service';
 			      HttpModule,
     			  InMemoryWebApiModule.forRoot(InMemoryDataService),
     			  MaterialModule.forRoot()
+            //,FlexLayoutModule.forRoot()
     			  //,Hammer
 			    ],
   declarations: [ 
