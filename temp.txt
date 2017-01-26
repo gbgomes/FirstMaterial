@@ -1,0 +1,252 @@
+
+> angular-quickstart@1.0.0 start C:\Users\Public\Documents\My Documents\Desenv\Angular2\material-playground
+> tsc && concurrently "tsc -w" "lite-server" 
+
+node_modules/@angular/flex-layout/src/lib/flexbox/api/base.ts(48,25): error TS7006: Parameter 'key' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/base.ts(140,9): error TS7005: Variable 'array' implicitly has an 'any[]' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(44,35): error TS7032: Property 'align' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(44,41): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(48,35): error TS7032: Property 'alignXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(48,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(52,35): error TS7032: Property 'alignGtXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(52,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(56,35): error TS7032: Property 'alignSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(56,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(60,35): error TS7032: Property 'alignGtSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(60,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(64,35): error TS7032: Property 'alignMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(64,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(68,35): error TS7032: Property 'alignGtMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(68,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(72,35): error TS7032: Property 'alignLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(72,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(76,35): error TS7032: Property 'alignGtLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(76,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(80,35): error TS7032: Property 'alignXl' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(80,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-align.ts(126,21): error TS7006: Parameter 'align' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(43,36): error TS7032: Property 'offset' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(43,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(44,36): error TS7032: Property 'offsetXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(44,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(45,36): error TS7032: Property 'offsetGtXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(45,47): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(46,36): error TS7032: Property 'offsetSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(46,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(47,36): error TS7032: Property 'offsetGtSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(47,47): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(48,36): error TS7032: Property 'offsetMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(48,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(49,36): error TS7032: Property 'offsetGtMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(49,47): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(50,36): error TS7032: Property 'offsetLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(50,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(51,36): error TS7032: Property 'offsetGtLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(51,47): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(52,36): error TS7032: Property 'offsetXl' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(52,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-offset.ts(95,21): error TS7006: Parameter 'offset' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(42,35): error TS7032: Property 'order' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(42,41): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(43,35): error TS7032: Property 'orderXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(43,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(44,35): error TS7032: Property 'orderGtXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(44,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(45,35): error TS7032: Property 'orderSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(45,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(46,35): error TS7032: Property 'orderGtSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(46,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(47,35): error TS7032: Property 'orderMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(47,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(48,35): error TS7032: Property 'orderGtMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(48,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(49,35): error TS7032: Property 'orderLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(49,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(50,35): error TS7032: Property 'orderGtLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(50,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(51,35): error TS7032: Property 'orderXl' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(51,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex-order.ts(95,21): error TS7006: Parameter 'value' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(66,30): error TS7032: Property 'flex' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(66,35): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(70,30): error TS7032: Property 'shrink' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(70,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(74,30): error TS7032: Property 'grow' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(74,35): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(78,30): error TS7032: Property 'flexXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(78,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(82,30): error TS7032: Property 'flexGtXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(82,39): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(86,30): error TS7032: Property 'flexSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(86,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(90,30): error TS7032: Property 'flexGtSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(90,39): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(94,30): error TS7032: Property 'flexMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(94,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(98,30): error TS7032: Property 'flexGtMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(98,39): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(102,30): error TS7032: Property 'flexLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(102,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(106,30): error TS7032: Property 'flexGtLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(106,39): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(110,30): error TS7032: Property 'flexXl' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(110,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(225,9): error TS7005: Variable 'css' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(225,14): error TS7005: Variable 'isValue' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(243,7): error TS7018: Object literal's property 'max-width' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(244,7): error TS7018: Object literal's property 'max-height' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(245,7): error TS7018: Object literal's property 'min-width' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/flex.ts(246,7): error TS7018: Object literal's property 'min-height' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(57,30): error TS7032: Property 'hide' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(57,35): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(58,30): error TS7032: Property 'hideXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(58,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(59,30): error TS7032: Property 'hideGtXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(59,39): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(60,30): error TS7032: Property 'hideSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(60,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(61,30): error TS7032: Property 'hideGtSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(61,39): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(62,30): error TS7032: Property 'hideMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(62,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(63,30): error TS7032: Property 'hideGtMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(63,39): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(64,30): error TS7032: Property 'hideLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(64,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(65,30): error TS7032: Property 'hideGtLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(65,39): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(66,30): error TS7032: Property 'hideXl' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(66,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(143,21): error TS7006: Parameter 'value' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/hide.ts(150,27): error TS7006: Parameter 'value' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(55,37): error TS7032: Property 'align' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(55,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(56,37): error TS7032: Property 'alignXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(56,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(57,37): error TS7032: Property 'alignGtXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(57,47): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(58,37): error TS7032: Property 'alignSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(58,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(59,37): error TS7032: Property 'alignGtSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(59,47): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(60,37): error TS7032: Property 'alignMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(60,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(61,37): error TS7032: Property 'alignGtMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(61,47): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(62,37): error TS7032: Property 'alignLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(62,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(63,37): error TS7032: Property 'alignGtLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(63,47): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(64,37): error TS7032: Property 'alignXl' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(64,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(126,27): error TS7006: Parameter 'direction' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(139,21): error TS7006: Parameter 'align' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(191,28): error TS7006: Parameter 'align' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-align.ts(191,35): error TS7006: Parameter 'layout' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(48,35): error TS7032: Property 'gap' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(48,39): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(49,35): error TS7032: Property 'gapXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(49,41): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(50,35): error TS7032: Property 'gapGtXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(50,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(51,35): error TS7032: Property 'gapSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(51,41): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(52,35): error TS7032: Property 'gapGtSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(52,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(53,35): error TS7032: Property 'gapMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(53,41): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(54,35): error TS7032: Property 'gapGtMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(54,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(55,35): error TS7032: Property 'gapLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(55,41): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(56,35): error TS7032: Property 'gapGtLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(56,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(57,35): error TS7032: Property 'gapXl' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(57,41): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(106,27): error TS7006: Parameter 'direction' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(135,21): error TS7006: Parameter 'value' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(136,9): error TS7005: Variable 'key' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(137,7): error TS7018: Object literal's property 'margin-left' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(138,7): error TS7018: Object literal's property 'margin-right' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(139,7): error TS7018: Object literal's property 'margin-top' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-gap.ts(140,7): error TS7018: Object literal's property 'margin-bottom' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(48,36): error TS7032: Property 'wrap' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(48,41): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(49,36): error TS7032: Property 'wrapXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(49,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(50,36): error TS7032: Property 'wrapGtXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(50,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(51,36): error TS7032: Property 'wrapSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(51,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(52,36): error TS7032: Property 'wrapGtSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(52,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(53,36): error TS7032: Property 'wrapMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(53,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(54,36): error TS7032: Property 'wrapGtMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(54,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(55,36): error TS7032: Property 'wrapLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(55,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(56,36): error TS7032: Property 'wrapGtLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(56,45): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(57,36): error TS7032: Property 'wrapXl' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(57,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(101,27): error TS7006: Parameter 'direction' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(124,21): error TS7006: Parameter 'value' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout-wrap.ts(134,26): error TS7006: Parameter 'value' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(61,26): error TS7032: Property 'layout' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(61,33): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(62,32): error TS7032: Property 'layoutXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(62,41): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(63,32): error TS7032: Property 'layoutGtXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(63,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(64,32): error TS7032: Property 'layoutSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(64,41): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(65,32): error TS7032: Property 'layoutGtSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(65,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(66,32): error TS7032: Property 'layoutMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(66,41): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(67,32): error TS7032: Property 'layoutGtMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(67,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(68,32): error TS7032: Property 'layoutLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(68,41): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(69,32): error TS7032: Property 'layoutGtLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(69,43): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(70,32): error TS7032: Property 'layoutXl' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(70,41): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(139,21): error TS7006: Parameter 'value' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/layout.ts(147,26): error TS7006: Parameter 'value' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(61,30): error TS7032: Property 'show' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(61,35): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(62,30): error TS7032: Property 'showXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(62,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(63,30): error TS7032: Property 'showGtXs' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(63,39): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(64,30): error TS7032: Property 'showSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(64,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(65,30): error TS7032: Property 'showGtSm' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(65,39): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(66,30): error TS7032: Property 'showMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(66,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(67,30): error TS7032: Property 'showGtMd' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(67,39): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(68,30): error TS7032: Property 'showLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(68,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(69,30): error TS7032: Property 'showGtLg' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(69,39): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(70,30): error TS7032: Property 'showXl' implicitly has type 'any', because its set accessor lacks a parameter type annotation.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(70,37): error TS7006: Parameter 'val' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(141,21): error TS7006: Parameter 'show' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/api/show.ts(146,19): error TS7006: Parameter 'show' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/responsive/responsive-activation.ts(99,9): error TS7005: Variable 'subscriptions' implicitly has an 'any[]' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/responsive/responsive-activation.ts(154,21): error TS7006: Parameter 'key' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/responsive/responsive-activation.ts(182,29): error TS7006: Parameter 'inputKey' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/responsive/responsive-activation.ts(184,25): error TS7006: Parameter 'key' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/responsive/responsive-activation.ts(202,27): error TS7006: Parameter 'key' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/flexbox/responsive/responsive-activation.ts(206,24): error TS7006: Parameter 'key' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/media-query/match-media.ts(155,26): error TS7006: Parameter 'query' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/media-query/media-monitor.ts(53,9): error TS7005: Variable 'found' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/media-query/providers/match-media-observable-provider.ts(54,35): error TS7006: Parameter 'alias' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/media-query/providers/match-media-observable-provider.ts(60,35): error TS7006: Parameter 'query' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/media-query/providers/match-media-observable-provider.ts(66,36): error TS7006: Parameter 'query' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/media-query/providers/match-media-observable-provider.ts(81,32): error TS7006: Parameter 'alias' implicitly has an 'any' type.
+node_modules/@angular/flex-layout/src/lib/utils/auto-prefixer.ts(10,34): error TS7006: Parameter 'target' implicitly has an 'any' type.

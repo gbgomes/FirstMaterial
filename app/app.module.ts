@@ -8,7 +8,8 @@ import { NgModule }          from '@angular/core';
 import { BrowserModule }     from '@angular/platform-browser';
 import { FormsModule }       from '@angular/forms';
 import { HttpModule }        from '@angular/http';
-import { FlexLayoutModule }  from '@angular/flex-layout';
+import { FlexLayoutModule }  from "@angular/flex-layout";
+import { MasonryModule }     from 'angular2-masonry';
 
 import { AppRoutingModule }     from './app-routing.module';
 import { AppComponent }         from './app.component';
@@ -32,13 +33,14 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 
 @NgModule({
-  imports:[ BrowserModule, 
+  imports:[ BrowserModule,  FlexLayoutModule.forRoot(),
   				  FormsModule,
 			      AppRoutingModule,
 			      HttpModule,
     			  InMemoryWebApiModule.forRoot(InMemoryDataService),
-    			  MaterialModule.forRoot()
-            //,FlexLayoutModule.forRoot()
+    			  MaterialModule.forRoot(),
+            MasonryModule
+//            ,FlexLayoutModule.forRoot()
     			  //,Hammer
 			    ],
   declarations: [ 

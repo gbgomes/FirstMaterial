@@ -69,3 +69,5 @@ h4 {
   background-image: url('assets/img/examples/shiba1.jpg');
   background-size: cover;
 }
+
+.brick { width: 200px; }

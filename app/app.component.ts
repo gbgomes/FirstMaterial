@@ -11,6 +11,22 @@ import {Router}            from '@angular/router';
 
 //import { MenuLateralComponent } from "./menu-lateral.component";
 
+import {Observable} from "rxjs/Observable";
+import {BehaviorSubject} from "rxjs/Rx";
+
+const windowSize$ = new BehaviorSubject(getWindowSize());
+
+function getWindowSize() {
+  return window.innerWidth;
+/*
+  return {
+    height: window.innerHeight,
+    width: window.innerWidth
+  };
+  */
+}
+
+
 @Component
 ({
   moduleId: module.id,
@@ -29,6 +45,7 @@ export class AppComponent implements OnInit
     private menuitemsService: MenuItemService,
             ngZone:           NgZone)
   {
+  /*
       window.onresize = (e) => {
         ngZone.run(() => {
               if( window.innerWidth < 1024 )
@@ -44,9 +61,13 @@ export class AppComponent implements OnInit
 
         });
       };
+    */  
    }
-
-  title = 'Tour of Heroes';
+  //size$ = windowSize$.do(o => console.log('size:', o));
+//  title = 'Tour of Heroes';
+//  title = windowSize$.value;
+//  title = windowSize$.do(o => o.value);
+//    title = JSON.stringify(windowSize$);
 
   @ViewChild('sidenav') sidenav: MdSidenav;
 //  @ViewChild('sidenav') sidenav: MdSidenav;
@@ -65,6 +86,11 @@ export class AppComponent implements OnInit
   ngOnInit(): void 
   {
     this.getMenuItems();
+
+      Observable.fromEvent(window, 'resize')
+      .map(getWindowSize)
+      .subscribe(windowSize$);
+
   }
 
 }

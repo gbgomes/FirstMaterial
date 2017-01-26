@@ -1,0 +1,520 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"m",
+				"mdSidenav"
+			],
+			[
+				"ctrl",
+				"menuLateralItemsCtrl"
+			],
+			[
+				"l",
+				"li\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/dashboard.component.ts",
+			"settings":
+			{
+				"buffer_size": 1497,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/dashboard.component.html",
+			"settings":
+			{
+				"buffer_size": 2858,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/dashboard.component.css",
+			"settings":
+			{
+				"buffer_size": 1123,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "systemjs.config.js",
+			"settings":
+			{
+				"buffer_size": 1831,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/app.module.ts",
+			"settings":
+			{
+				"buffer_size": 1928,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app"
+	],
+	"file_history":
+	[
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/node_modules/angular2-masonry/package.json",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/app.component.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/app.module.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/systemjs.config.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/my-project/src/app/app.module.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/my-project/src/app/app.component.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/package.json",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/my-project/src/app/app.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/tsconfig.json",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/tslint.json",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/node_modules/@angular/flex-layout/README.md",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/node_modules/@angular/flex-layout/package.json",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/node_modules/@angular/flex-layout/index.metadata.json",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/node_modules/@angular/flex-layout/index.d.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/node_modules/@angular/core/index.d.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/node_modules/@angular/flex-layout/src/lib/index.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/app.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/app.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/hero-search.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/styles.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/menu-lateral.component.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/hero-search.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/dashboard.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/dashboard.component.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/heroes.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/dashboard.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/hero-detail.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/in-memory-data.service.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material2-app/src/app/app.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/menuitem.service.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/heroes.component.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/heroes.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material2-app/src/app/app.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material2-app/src/styles.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/index.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/teste.service.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/menu-lateral.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/menu-lateral.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/menuitem.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material2-app/src/app/app.component.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material2-app/src/app/app.module.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material2-app/src/main.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material2-app/src/index.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/hero-search.component.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/hero-detail.component.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/node_modules/@angular/material/module.d.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/.gitignore",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playgroud/app/dashboard.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/FirstMaterial/app/dashboard.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/index.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/app.module.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/dashboard.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/app.component.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/hero-search.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/hero-search.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/hero-search.component.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/hero-detail.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/heroes.component.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/heroes.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/rxjs-extensions.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/hero-search.service.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/hero-detail.component.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/heroes.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/in-memory-data.service.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/app-routing.module.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/hero.service.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/dashboard.component.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/styles.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/app.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/dashboard.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/hero-detail.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/hero.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/app.component.spec.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/app/heroi.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/quickstart/.editorconfig",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/my-project/src/index.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/my-project/src/main.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/my-project/src/app/app.component.spec.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/my-project/src/app/app.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/my-project/src/polyfills.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/my-project/node_modules/core-js/es6/string.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/my-project/src/environments/environment.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Menu/script.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral/menu-lateral.component.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/mainApp.config.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/app.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/toolbar/toolbar.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/index.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Menu/index.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/mainApp.module.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral/menu-lateral.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/app.module.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/app.config.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral/menu-lateral.module.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral-items/menu-lateral-items.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral-items/menu-lateral-items.module.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral-items/menu-lateral-items.component.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/Menu/style.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/js/accordion.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/js/angular-material-sidemenu.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/js/accordion.css",
+		"/C/Program Files/Apache Software Foundation/Tomcat 5.5/webapps/docs/index.html",
+		"/C/Program Files/Apache Software Foundation/Tomcat 5.5/webapps/docs/docs.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral-button/menu-lateral-button.component.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/toolbar/toolbar.component.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral-button/menu-lateral-button.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/toolbar/toolbar.module.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral-button/menu-lateral-button.module.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/bower_components/angular-material/modules/js/menuBar/menuBar.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral-items/menu-lateral-items.module .js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral/menu-lateral.module - Copy.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral-items/menu-lateral-items.module - Copy.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view1/view1.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view1/view1.module.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view2/view2.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view2/view2.module.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view2/view2.component.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/angular-phonecat/app/phone-detail/phone-detail.template.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view1/view1.component.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view1/view1.module..js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view2/view2.componente.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/components/version/version.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/components/version/version-directive.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/components/version/interpolate-filter.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/app.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/index-async.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view2/view2.js",
+		"/C/Users/Public/Documents/My Documents/Desenv/fichatecnica_Materialize/app/js/produto-cadastro/produto-cadastro.component.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"el",
+			"activity",
+			"DialogController",
+			"show",
+			"mdDialog",
+			"mdSidenav",
+			"mdBottomSheet",
+			"ng-md-icon",
+			"section",
+			"svg",
+			"myapp",
+			"docs.json",
+			"angular",
+			"angular-materialize.js",
+			"angular"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/dashboard.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1427,
+								1427
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/dashboard.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2827,
+								2827
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 544.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/dashboard.component.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1123,
+								1123
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 199.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "systemjs.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1426,
+								1426
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/app.module.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1520,
+								1520
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "material-playground.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

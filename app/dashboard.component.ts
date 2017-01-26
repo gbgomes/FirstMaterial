@@ -21,7 +21,7 @@ export class DashboardComponent
     private heroService: HeroService,
             ngZone:           NgZone)
   {
-  
+  /*
       window.onresize = (e) => {
         ngZone.run(() => {
         this.gridlist.cols = 5;
@@ -48,15 +48,15 @@ export class DashboardComponent
 
         });
       };
-      
+    */  
    }
 
   ngOnInit(): void
   {
     this.heroService.getHeroes().then(heroes => this.heroes = heroes.slice(0, 5));
-    this.gridlist.cols = 3;
+//    this.gridlist.cols = 3;
   }
 
-  @ViewChild('gridlist') gridlist: MdGridList;
+  //@ViewChild('gridlist') gridlist: MdGridList;
   //gridlist.cols = 5;
 }
