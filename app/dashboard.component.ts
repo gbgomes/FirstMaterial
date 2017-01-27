@@ -1,9 +1,10 @@
-import { Component, NgZone, ViewChild } from '@angular/core';
-
-import {MdGridList}         from '@angular/material';
+import { Component }             from '@angular/core';
+import { MdDialog, MdDialogRef } from '@angular/material';
 
 import { Hero } from './hero';
 import { HeroService } from './hero.service';
+import { HeroDetailComponent } from './hero-detail.component';
+
 
 @Component({
   moduleId: module.id,
@@ -14,49 +15,20 @@ import { HeroService } from './hero.service';
 export class DashboardComponent
 {
   heroes: Hero[] = [];
+  selectedOption: string;
 
-  //nCols = 2;
-
-  constructor(
-    private heroService: HeroService,
-            ngZone:           NgZone)
-  {
-  /*
-      window.onresize = (e) => {
-        ngZone.run(() => {
-        this.gridlist.cols = 5;
-              if( window.innerWidth > 1024 )
-              {
-                this.gridlist.cols = 4;
-              } else
-              if( window.innerWidth > 640 && window.innerWidth <= 1024 )
-              {
-                this.gridlist.cols = 3;
-              } else
-              if( window.innerWidth > 480 && window.innerWidth <= 640 )
-              {
-                this.gridlist.cols = 2;
-              } else
-              if( window.innerWidth <= 480 )
-              {
-                this.gridlist.cols = 1;
-              } 
-              else
-              {
-                this.gridlist.cols = 4;
-              }
-
-        });
-      };
-    */  
-   }
+  constructor( private heroService: HeroService,
+               public dialog: MdDialog) { }
 
   ngOnInit(): void
   {
     this.heroService.getHeroes().then(heroes => this.heroes = heroes.slice(0, 5));
-//    this.gridlist.cols = 3;
   }
 
-  //@ViewChild('gridlist') gridlist: MdGridList;
-  //gridlist.cols = 5;
+  openDialog() {
+    let dialogRef = this.dialog.open(HeroDetailComponent);
+    dialogRef.afterClosed().subscribe(result => {
+      this.selectedOption = result;
+    });
+  }
 }

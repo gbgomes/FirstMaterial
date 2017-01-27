@@ -1,13 +1,14 @@
 
 <md-sidenav-container [class.m2app-dark]="isDarkTheme" fullscreen>
 
-<!--    <menu-lateral #sidenav></menu-lateral> -->
+  <md-sidenav #sidenav opened="true" mode="side">
 
-	<md-sidenav #sidenav opened="true" mode="side">
-		<h1>{{title}}</h1>
-		<nav>
-			<p  *ngFor="let menuitem of menuitems"><a routerLink={{menuitem.url}} routerLinkActive="active">{{menuitem.name}}</a></p>
-		</nav>
+	<h1>{{title}}</h1>
+
+	<md-nav-list color="primary">
+	   <a md-list-item color="primary" routerLink={{menuitem.url}} routerLinkActive="active" *ngFor="let menuitem of menuitems"> {{ menuitem.name }} </a>
+	</md-nav-list>
+
 	</md-sidenav>
 
 	<div id="toolbar">
@@ -21,11 +22,11 @@
 
 	  </md-toolbar>
 	</div>
-
 	
 	<div id="wrapper">
 	  <div id="content">
 		<router-outlet></router-outlet>
       </div>
 	</div>
+
 </md-sidenav-container>

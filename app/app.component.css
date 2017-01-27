@@ -31,6 +31,10 @@ md-sidenav-layout.m2app-dark {
   background: black;
 }
 
+md-sidenav {
+  width: 200px;
+}
+
 #toolbar {
   height: 65px;
   overflow: visible;

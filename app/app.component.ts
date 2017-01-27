@@ -45,7 +45,6 @@ export class AppComponent implements OnInit
     private menuitemsService: MenuItemService,
             ngZone:           NgZone)
   {
-  /*
       window.onresize = (e) => {
         ngZone.run(() => {
               if( window.innerWidth < 1024 )
@@ -61,21 +60,15 @@ export class AppComponent implements OnInit
 
         });
       };
-    */  
    }
-  //size$ = windowSize$.do(o => console.log('size:', o));
 //  title = 'Tour of Heroes';
-//  title = windowSize$.value;
-//  title = windowSize$.do(o => o.value);
-//    title = JSON.stringify(windowSize$);
 
   @ViewChild('sidenav') sidenav: MdSidenav;
-//  @ViewChild('sidenav') sidenav: MdSidenav;
 
-
-  isScreenSmall(): boolean {
+  isScreenSmall(): boolean
+  {
 //    return window.matchMedia(`(max-width: ${SMALL_WIDTH_BREAKPOINT}px)`).matches;
-  return false;
+    return false;
   }
 
   getMenuItems(): void
@@ -86,11 +79,6 @@ export class AppComponent implements OnInit
   ngOnInit(): void 
   {
     this.getMenuItems();
-
-      Observable.fromEvent(window, 'resize')
-      .map(getWindowSize)
-      .subscribe(windowSize$);
-
   }
 
 }

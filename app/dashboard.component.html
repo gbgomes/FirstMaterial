@@ -1,93 +1,28 @@
 <h3>Top Heroes</h3>
-<div class="grid grid-pad">
-  <a *ngFor="let hero of heroes"  [routerLink]="['/detail', hero.id]"  class="col-1-4">
-    <div class="module hero">
-      <h4>{{hero.name}}</h4>
-    </div>
-  </a>
-</div>
 
-<!--<md-grid-list #gridlist [cols]="{{nCols}}">-->
-<md-grid-list #gridlist cols=3>
-  <md-grid-tile *ngFor="let hero of heroes">
+<masonry>
+  <masonry-brick *ngFor="let hero of heroes">
     <md-card class="dashboard-cards">
-  <md-card-header>
+      <md-card-header>
 <!--        <div md-card-avatar class="example-header-image"></div> -->
-    <md-card-title>{{hero.name}}</md-card-title>
+        <md-card-title>{{hero.name}}</md-card-title>
 <!--    <md-card-subtitle>Dog Breed</md-card-subtitle> -->
-  </md-card-header>
-  <md-card-content>
-    <p>
-      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-      bred for hunting.
-    </p>
-  </md-card-content>
-  <md-card-actions>
-    <button md-button>LIKE</button>
-    <button md-button>SHARE</button>
-    <button md-button>Detalhes</button>
-  </md-card-actions>
-</md-card>
-  </md-grid-tile>
-</md-grid-list>
-
-<div class="container">
-  <div fxLayout="row" fxLayoutAlign="start center" class="content">
-    <div class="blocks" fxFlex = "20%">1</div>
-    <div class="blocks" fxFlex = "60%">2</div>
-    <div class="blocks" fxFlex>3</div>
-  </div>
-</div>
-<div class="container">
-  <div fxLayout="row" fxLayoutAlign="space-around center" class="content">
-    <div class="blocks">1</div>
-    <div class="blocks">2</div>
-    <div class="blocks">3</div>
-  </div>
-</div>
-<div class="container">
-  <div fxLayout="row" fxLayoutAlign="begin center" class="content">
-    <div class="blocks">1</div>
-    <div class="blocks">2</div>
-    <div class="blocks">3</div>
-  </div>
-</div>
-
-<!--
-<div class="container">
-  <div fxLayout="row"
-       fxLayout.xs="column"
-       fxLayout.sm="column"
-       fxFlex class="contentResp">
-    <div class="blocks" fxFlex *ngFor="let hero of heroes">
-    <md-card class="dashboard-cards">
-  <md-card-header> -->
-<!--        <div md-card-avatar class="example-header-image"></div> -->
-<!--    <md-card-title>{{hero.name}}</md-card-title>
-<!--    <md-card-subtitle>Dog Breed</md-card-subtitle> -->
-<!--  </md-card-header>
-  <md-card-content>
-    <p>
-      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-      A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-      bred for hunting.
-    </p>
-  </md-card-content>
-  <md-card-actions>
-    <button md-button>LIKE</button>
-    <button md-button>SHARE</button>
-    <button md-button>Detalhes</button>
-  </md-card-actions>
-</md-card>
-    </div>
-  </div>
-</div> -->
-
-     <masonry>
-       <masonry-brick class="brick" *ngFor="let brick of bricks">{{brick.title}}</masonry-brick>
-     </masonry>
-
-
+      </md-card-header>
+      <md-card-content>
+        <p>
+          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+          A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+          bred for hunting.
+        </p>
+      </md-card-content>
+      <md-card-actions>
+<!--        <a md-button class="cards-action-button" [routerLink]="['/detail', hero.id]"> -->
+        <button md-button (click)="openDialog()" class="cards-action-button">
+          Detalhes
+        </button>
+      </md-card-actions>
+    </md-card>
+  </masonry-brick>
+</masonry>
 
 <hero-search></hero-search>

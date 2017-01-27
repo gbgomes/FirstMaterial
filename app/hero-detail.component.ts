@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, Params }   from '@angular/router';
 import { Location }                 from '@angular/common';
+import { MdDialogRef }              from '@angular/material';
 
 import { Hero } from './hero';
 
@@ -18,19 +19,24 @@ import { HeroService } from './hero.service';
 export class HeroDetailComponent implements OnInit 
 {
 	@Input()
-	hero: Hero;
+//	hero: Hero;
+    hero = {id:1, name:'kkk'};
 
 	constructor(
 	  private heroService: HeroService,
 	  private route:       ActivatedRoute,
-	  private location:    Location
+	  private location:    Location,
+	  public  dialogRef:   MdDialogRef<HeroDetailComponent>
 	) {}
 
 	ngOnInit(): void
 	{
+/*	
 	  this.route.params
 	    .switchMap((params: Params) => this.heroService.getHero(+params['id']))
 	    .subscribe(hero => this.hero = hero);
+*/	    
+//	    this.heroService.getHero(0).subscribe(hero => this.hero = hero);
 	}
 
 	goBack(): void
