@@ -16,6 +16,7 @@ export class DashboardComponent
 {
   heroes: Hero[] = [];
   selectedOption: string;
+  dialogRef: MdDialogRef<HeroDetailComponent>;
 
   constructor( private heroService: HeroService,
                public dialog: MdDialog) { }
@@ -25,9 +26,13 @@ export class DashboardComponent
     this.heroService.getHeroes().then(heroes => this.heroes = heroes.slice(0, 5));
   }
 
-  openDialog() {
-    let dialogRef = this.dialog.open(HeroDetailComponent);
-    dialogRef.afterClosed().subscribe(result => {
+  openDialog(hero: Hero)
+  {
+    //this.dialog.hero = hero;
+    this.dialogRef = this.dialog.open(HeroDetailComponent);
+    this.dialogRef.componentInstance.hero = hero;
+    //this.dialogRef.hero = hero;
+    this.dialogRef.afterClosed().subscribe(result => {
       this.selectedOption = result;
     });
   }

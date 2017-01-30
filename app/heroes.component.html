@@ -1,3 +1,4 @@
+<!--
 <div>
   <label>Hero name:</label> <input #heroName />
   <button (click)="add(heroName.value); heroName.value=''">
@@ -16,4 +17,13 @@
     {{selectedHero.name | uppercase}} is my hero
   </h2>
   <button (click)="gotoDetail()">View Details</button>
+</div>
+-->
+
+<div class="heroes" *ngFor="let hero of heroes" fxLayout='row'>
+
+  <div fxFlex="33px"                         class="badge" >{{hero.id}}</div>
+  <div fxFlex="33%" [fxLayout]="direction" class="two">{{hero.name}}  </div>
+  <div fxFlex class="three"></div>
+
 </div>
