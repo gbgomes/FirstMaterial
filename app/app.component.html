@@ -3,7 +3,9 @@
 
   <md-sidenav #sidenav opened="true" mode="side">
 
-	<h1>{{title}}</h1>
+	<div class="sidenav-header">
+		
+	</div>
 
 	<md-nav-list color="primary">
 	   <a md-list-item color="primary" routerLink={{menuitem.url}} routerLinkActive="active" *ngFor="let menuitem of menuitems"> {{ menuitem.name }} </a>

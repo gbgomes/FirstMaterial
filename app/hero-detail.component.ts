@@ -19,8 +19,9 @@ import { HeroService } from './hero.service';
 export class HeroDetailComponent implements OnInit 
 {
 	@Input()
-//	hero: Hero;
-    hero = {id:1, name:'kkk'};
+	hero: Hero;
+    //hero = {id:1, name:'kkk'};
+    heroId: number;
 
 	constructor(
 	  private heroService: HeroService,
@@ -46,6 +47,6 @@ export class HeroDetailComponent implements OnInit
 
 	save(): void
 	{
-  		this.heroService.update(this.hero).then(() => this.goBack());
+  		this.heroService.update(this.hero);
 	}
 }
