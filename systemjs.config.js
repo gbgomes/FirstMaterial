@@ -29,7 +29,8 @@
       'rxjs':                      'npm:rxjs',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
       'angular2-masonry':          'npm:angular2-masonry',
-      'masonry-layout':            'npm:masonry-layout/dist/masonry.pkgd.js'
+      'masonry-layout':            'npm:masonry-layout/dist/masonry.pkgd.js',
+      '@swimlane/ngx-datatable':   'npm:@swimlane/ngx-datatable/release/index.js'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {

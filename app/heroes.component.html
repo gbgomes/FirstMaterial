@@ -20,10 +20,48 @@
 </div>
 -->
 
-<div class="heroes" *ngFor="let hero of heroes" fxLayout='row'>
+    <div style="display: flex; justify-content: center">
 
-  <div fxFlex="33px"                         class="badge" >{{hero.id}}</div>
-  <div fxFlex="33%" [fxLayout]="direction" class="two">{{hero.name}}  </div>
-  <div fxFlex class="three"></div>
+      <ngx-datatable #teste
+        class="material" style="width: 70%"
+        [rows]="rows"
+        [columns]="[{name:'Id'},{name:'Name'},{name:'Company'}]"
+        [columnMode]="'flex'"
+        [headerHeight]="50"
+        [footerHeight]="50"
+        [rowHeight]="'auto'"
+        [externalPaging]="true"
+        [count]="count"
+        [offset]="offset"
+        [limit]="limit"
+        (page)='onPage($event)'>
 
-</div>
+        <ngx-datatable-column name="Id" [flexGrow]="1">
+          <template let-column="column" ngx-datatable-header-template>
+            {{column.name}}
+          </template>
+          <template let-row="row" ngx-datatable-cell-template>
+            <strong>{{row.id}}</strong>
+          </template>
+        </ngx-datatable-column>
+
+        <ngx-datatable-column name="Name" [flexGrow]="3">
+          <template let-column="column" let-sort="sortFn" ngx-datatable-header-template>
+              <span (click)="sort()">{{column.name}}</span>
+          </template>
+          <template let-row="row" ngx-datatable-cell-template>
+              {{row.name}}
+          </template>
+        </ngx-datatable-column>
+
+        <ngx-datatable-column name="Actions" [flexGrow]="1">
+          <template let-column="column" ngx-datatable-header-template>
+            {{column.name}}
+          </template>
+          <template let-row="row" ngx-datatable-cell-template>
+            <button class="delete" (click)="delete(row.id); $event.stopPropagation()">x</button>
+          </template>
+        </ngx-datatable-column>
+
+      </ngx-datatable>
+    </div>

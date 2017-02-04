@@ -6,8 +6,10 @@ import { MenuItemService } from './menuitem.service';
 
 import {Component, OnInit, NgZone, ViewChild} from '@angular/core';
 
-import {MdSidenav}         from '@angular/material';
-import {Router}            from '@angular/router';
+import {MdSidenav}              from '@angular/material';
+import {Router, NavigationEnd}  from '@angular/router';
+
+import { NgxDatatableModule }  from '@swimlane/ngx-datatable';
 
 //import { MenuLateralComponent } from "./menu-lateral.component";
 
@@ -16,14 +18,9 @@ import {BehaviorSubject} from "rxjs/Rx";
 
 const windowSize$ = new BehaviorSubject(getWindowSize());
 
-function getWindowSize() {
+function getWindowSize()
+{
   return window.innerWidth;
-/*
-  return {
-    height: window.innerHeight,
-    width: window.innerWidth
-  };
-  */
 }
 
 
@@ -39,6 +36,7 @@ export class AppComponent implements OnInit
 { 
   menuitems: MenuItem[];
   smallscreen = false
+  bMostraFAB = false;
 
   constructor(
     private router: Router,
@@ -50,26 +48,22 @@ export class AppComponent implements OnInit
               if( window.innerWidth < 1024 )
               {
                 this.sidenav.close();
+                this.sidenav.mode = "over";
                 this.smallscreen = true;
               } 
               else
               {
                 this.sidenav.open();
+                this.sidenav.mode = "side";
                 this.smallscreen = false;
               }
 
         });
       };
    }
-//  title = 'Tour of Heroes';
 
   @ViewChild('sidenav') sidenav: MdSidenav;
-
-  isScreenSmall(): boolean
-  {
-//    return window.matchMedia(`(max-width: ${SMALL_WIDTH_BREAKPOINT}px)`).matches;
-    return false;
-  }
+  @ViewChild('teste') teste: NgxDatatableModule;
 
   getMenuItems(): void
   {
@@ -79,5 +73,15 @@ export class AppComponent implements OnInit
   ngOnInit(): void 
   {
     this.getMenuItems();
+
+    this.router.events
+      .subscribe((event) => {
+        if (event instanceof NavigationEnd) {
+          console.log('NavigationEnd:', event);
+          console.log(this.teste);
+        }
+      });
   }
+
+
 }

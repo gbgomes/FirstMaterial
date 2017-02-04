@@ -27,6 +27,7 @@
     "@angular/platform-browser": "^2.4.5",
     "@angular/platform-browser-dynamic": "^2.4.5",
     "@angular/router": "^3.4.5",
+    "@swimlane/ngx-datatable": "^6.0.2",
     "@types/jasmine": "^2.5.41",
     "@types/node": "^6.0.62",
     "angular-in-memory-web-api": "~0.2.4",

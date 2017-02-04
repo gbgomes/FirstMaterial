@@ -12,9 +12,10 @@ export class MenuLateralComponent
 
   @ViewChild('sidenav') el: MdSidenav;
 
-  isScreenSmall(): boolean {
+  isScreenSmall(): boolean
+  {
 //    return window.matchMedia(`(max-width: ${SMALL_WIDTH_BREAKPOINT}px)`).matches;
-	return false;
+	  return false;
   }
 
 

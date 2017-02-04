@@ -12,6 +12,7 @@ import { HttpModule }        from '@angular/http';
 import { MaterialModule }      from '@angular/material';
 import { FlexLayoutModule }    from "@angular/flex-layout";
 import { MasonryModule }       from 'angular2-masonry';
+import { NgxDatatableModule }  from '@swimlane/ngx-datatable';
 
 // Imports for loading & configuring the in-memory web api
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
@@ -31,16 +32,17 @@ import { MenuItemService } from './menuitem.service';
 
 
 @NgModule({
-  imports:[ BrowserModule,  FlexLayoutModule.forRoot(),
-  				  FormsModule,
-			      AppRoutingModule,
-			      HttpModule,
-    			  InMemoryWebApiModule.forRoot(InMemoryDataService),
-    			  MaterialModule.forRoot(),
+  imports:[ BrowserModule,
+			FormsModule,
+			AppRoutingModule,
+			HttpModule,
+			InMemoryWebApiModule.forRoot(InMemoryDataService),
+			MaterialModule.forRoot(),
             MasonryModule,
-            FlexLayoutModule.forRoot()
+            FlexLayoutModule.forRoot(),
+			NgxDatatableModule
     			  //,Hammer
-			    ],
+			],
   declarations: [ 
               AppComponent,
   			      DashboardComponent, 

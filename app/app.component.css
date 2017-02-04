@@ -1,3 +1,8 @@
+@import '/node_modules/@swimlane/ngx-datatable/release/datatable.component.css';
+@import '/node_modules/@swimlane/ngx-datatable/release/material.css';
+@import '/node_modules/@swimlane/ngx-datatable/release/assets/icons.css';
+
+
 h1 {
   font-size: 1.2em;
   color: #999;
