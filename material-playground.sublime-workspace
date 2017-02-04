@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-image"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
 				"m",
 				"mdSidenav"
 			],
@@ -20,38 +32,54 @@
 	"buffers":
 	[
 		{
-			"file": "app/hero-detail.component.html",
+			"file": "app/heroes.component.ts",
 			"settings":
 			{
-				"buffer_size": 415,
+				"buffer_size": 1298,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/heroes.component.html",
+			"settings":
+			{
+				"buffer_size": 862,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/hero-detail.component.ts",
+			"file": "systemjs.config.js",
 			"settings":
 			{
-				"buffer_size": 1210,
+				"buffer_size": 1842,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/dashboard.component.html",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 989,
+				"buffer_size": 2116,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/app.module.ts",
+			"settings":
+			{
+				"buffer_size": 1923,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/dashboard.component.ts",
+			"file": "app/heroes.component.css",
 			"settings":
 			{
-				"buffer_size": 875,
-				"encoding": "UTF-8",
+				"buffer_size": 1044,
 				"line_ending": "Windows"
 			}
 		}
@@ -88,26 +116,29 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground",
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app"
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/app"
 	],
 	"file_history":
 	[
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/hero.service.ts",
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/hero.ts",
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/hero.js",
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/hero-detail.component.js",
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/dashboard.component.css",
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/app.component.css",
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/dashboard.component.ts",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/node_modules/ng2-smart-table/tsconfig.json",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/node_modules/ng2-smart-table/ng2-smart-table.ts",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/package.json",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/app/dashboard.component.html",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/app/dashboard.component.ts",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/app/hero-detail.component.html",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/app/hero-detail.component.ts",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/app/app.component.css",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/app/app.component.html",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/app/app.component.ts",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/app/hero-detail.component.css",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/app/dashboard.component.css",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/systemjs.config.js",
+		"/C/Users/guilherme/Documents/Guiherme/Desenv/Angular 2/material-playground/app/app.module.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/node_modules/angular2-masonry/package.json",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/app.component.ts",
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/dashboard.component.html",
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/app.component.html",
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/app.component.spec.ts",
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/app.component.spec.js",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/app.module.ts",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/systemjs.config.js",
-		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/node_modules/angular2-masonry/package.json",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/my-project/src/app/app.module.ts",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/my-project/src/app/app.component.ts",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/package.json",
@@ -120,11 +151,16 @@
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/node_modules/@angular/flex-layout/index.d.ts",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/node_modules/@angular/core/index.d.ts",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/node_modules/@angular/flex-layout/src/lib/index.ts",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/app.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/app.component.css",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/hero-search.component.css",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/styles.css",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/menu-lateral.component.ts",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/hero-search.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/dashboard.component.html",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/dashboard.component.ts",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/heroes.component.css",
+		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/dashboard.component.css",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/hero-detail.component.css",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material-playground/app/in-memory-data.service.ts",
 		"/C/Users/Public/Documents/My Documents/Desenv/Angular2/material2-app/src/app/app.component.html",
@@ -212,15 +248,7 @@
 		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral/menu-lateral.module - Copy.js",
 		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/menu-lateral-items/menu-lateral-items.module - Copy.js",
 		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view1/view1.html",
-		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view1/view1.module.js",
-		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view2/view2.html",
-		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view2/view2.module.js",
-		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view2/view2.component.js",
-		"/C/Users/Public/Documents/My Documents/Desenv/angular-phonecat/app/phone-detail/phone-detail.template.html",
-		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view1/view1.component.js",
-		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view1/view1.module..js",
-		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view2/view2.componente.js",
-		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/components/version/version.js"
+		"/C/Users/Public/Documents/My Documents/Desenv/teste-angular-material/app/view1/view1.module.js"
 	],
 	"find":
 	{
@@ -270,81 +298,54 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/hero-detail.component.html",
+					"file": "app/heroes.component.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 415,
+						"buffer_size": 1298,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								191,
-								191
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/hero-detail.component.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1210,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								198,
-								198
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/dashboard.component.html",
+					"buffer": 1,
+					"file": "app/heroes.component.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 989,
+						"buffer_size": 862,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								889,
-								889
+								684,
+								684
 							]
 						],
 						"settings":
@@ -357,24 +358,84 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/dashboard.component.ts",
+					"buffer": 2,
+					"file": "systemjs.config.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 875,
+						"buffer_size": 1842,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								492,
-								492
+								1482,
+								1482
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1362,
+								1362
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/app.module.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1518,
+								1518
 							]
 						],
 						"settings":
@@ -384,7 +445,37 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/heroes.component.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
