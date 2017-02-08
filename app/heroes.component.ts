@@ -1,8 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import { Router }            from '@angular/router';
+import { Component, OnInit }     from '@angular/core';
+import { Router }                from '@angular/router';
+import { MdDialog, MdDialogRef } from '@angular/material';
 
-import { Hero } from './hero';
-import { HeroService } from './hero.service';
+
+import { Hero }                from './hero';
+import { HeroDetailComponent } from './hero-detail.component';
+import { HeroService }         from './hero.service';
 
 @Component
 ({
@@ -16,15 +19,18 @@ export class HeroesComponent implements OnInit
 { 
   heroes: Hero[];
   selectedHero: Hero;
+  dialogRef: MdDialogRef<HeroDetailComponent>;
 
-  rows = [];
+
+  rows = new Array<any>();
   count: number = 0;
   offset: number = 0;
-  limit: number = 100;
+  limit: number = 10;
 
   constructor(
     private router: Router,
-    private heroService: HeroService) { }
+    private heroService: HeroService,
+    public dialog: MdDialog) { }
 
   ngOnInit(): void 
   {
@@ -55,7 +61,7 @@ export class HeroesComponent implements OnInit
     );
   }
 
-  onPage(event)
+  onPage(event: any)
   {
     //console.log('Page Event', event);
     this.page(event.offset, event.limit);
@@ -75,6 +81,22 @@ export class HeroesComponent implements OnInit
   gotoDetail(): void
   {
     this.router.navigate(['/detail', this.selectedHero.id]);
+  }
+
+  novoHeroe( ): void
+  {
+    this.openDialog ( {id:1, name:'kkk'} );
+  }
+
+  openDialog(hero: Hero)
+  {
+    //this.dialog.hero = hero;
+    this.dialogRef = this.dialog.open(HeroDetailComponent);
+    this.dialogRef.componentInstance.hero = hero;
+    //this.dialogRef.hero = hero;
+    this.dialogRef.afterClosed().subscribe(result => {
+      //this.selectedOption = result;
+    });
   }
 
   add(name: string): void
@@ -100,5 +122,5 @@ export class HeroesComponent implements OnInit
         this.heroes = this.heroes.filter(h => h !== hero);
         if (this.selectedHero === hero) { this.selectedHero = null; }
       });
-}
+  } 
 }
