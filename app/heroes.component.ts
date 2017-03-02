@@ -85,7 +85,7 @@ export class HeroesComponent implements OnInit
 
   novoHeroe( ): void
   {
-    this.openDialog ( {id:1, name:'kkk'} );
+    this.openDialog ( new Hero() );
   }
 
   openDialog(hero: Hero)

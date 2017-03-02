@@ -35,7 +35,7 @@
 			"file": "app/heroes.component.ts",
 			"settings":
 			{
-				"buffer_size": 1298,
+				"buffer_size": 2628,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,16 +43,19 @@
 			"file": "app/heroes.component.html",
 			"settings":
 			{
-				"buffer_size": 862,
+				"buffer_size": 2381,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "/**\n * System configuration for Angular samples\n * Adjust as necessary for your application needs.\n */\n(function (global) {\n  System.config({\n    paths: {\n      // paths serve as alias\n      'npm:': 'node_modules/'\n    },\n    // map tells the System loader where to look for things\n    map: {\n      // our app is within the app folder\n      app: 'app',\n\n      // angular bundles\n      '@angular/core': 'npm:@angular/core/bundles/core.umd.js',\n      '@angular/common': 'npm:@angular/common/bundles/common.umd.js',\n      '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',\n      '@angular/platform-browser': 'npm:@angular/platform-browser/bundles/platform-browser.umd.js',\n      '@angular/platform-browser-dynamic': 'npm:@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',\n      '@angular/http': 'npm:@angular/http/bundles/http.umd.js',\n      '@angular/router': 'npm:@angular/router/bundles/router.umd.js',\n      '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',\n\t    '@angular/material': 'npm:@angular/material/bundles/material.umd.js',\n\t    '@angular/flex-layout': 'npm:@angular/flex-layout/bundles/flex-layout.umd.js',\n\n      // other libraries\n      'rxjs':                      'npm:rxjs',\n      'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',\n      'angular2-masonry':          'npm:angular2-masonry',\n      'masonry-layout':            'npm:masonry-layout/dist/masonry.pkgd.js',\n      '@swimlane/ngx-datatable':   'npm:@swimlane/ngx-datatable/release/index.js'\n    },\n    // packages tells the System loader how to load when no filename and/or no extension\n    packages: {\n      app: {\n        main: './main.js',\n        defaultExtension: 'js'\n      },\n      'angular2-masonry': {\n        defaultExtension: \"js\",\n        main: \"index\" \n      },\n      rxjs: {\n        defaultExtension: 'js'\n      }\n    }\n  });\n})(this);\n",
 			"file": "systemjs.config.js",
+			"file_size": 1975,
+			"file_write_time": 131307033004175635,
 			"settings":
 			{
-				"buffer_size": 1842,
+				"buffer_size": 1925,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -61,7 +64,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 2116,
+				"buffer_size": 2157,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -70,7 +73,7 @@
 			"file": "app/app.module.ts",
 			"settings":
 			{
-				"buffer_size": 1923,
+				"buffer_size": 1947,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -307,7 +310,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1298,
+						"buffer_size": 2628,
 						"regions":
 						{
 						},
@@ -337,15 +340,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 862,
+						"buffer_size": 2381,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								684,
-								684
+								0,
+								0
 							]
 						],
 						"settings":
@@ -367,15 +370,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1842,
+						"buffer_size": 1925,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1482,
-								1482
+								102,
+								102
 							]
 						],
 						"settings":
@@ -397,15 +400,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2116,
+						"buffer_size": 2157,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1362,
-								1362
+								0,
+								0
 							]
 						],
 						"settings":
@@ -427,15 +430,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1923,
+						"buffer_size": 1947,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1518,
-								1518
+								0,
+								0
 							]
 						],
 						"settings":
